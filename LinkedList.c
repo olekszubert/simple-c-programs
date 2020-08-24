@@ -6,7 +6,7 @@ A Linked List program with various functions.
 */
 
 typedef struct Node {
-    uint8_t data;
+    uint32_t data;
     struct Node* next;
 } List_t;
 
